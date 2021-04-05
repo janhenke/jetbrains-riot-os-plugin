@@ -1,11 +1,11 @@
 <idea-plugin>
     <id>com.github.janhenke.jetbrainsriotosplugin</id>
-    <name>jetbrains-riot-os-plugin</name>
-    <vendor>janhenke</vendor>
+    <name>RIOT OS</name>
+    <vendor>Jan Henke</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.clion</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.janhenke.jetbrainsriotosplugin.services.MyApplicationService"/>
